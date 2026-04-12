@@ -1,0 +1,45 @@
+# שחר — Generative Engine Optimization Map
+
+> Shachar is a personal brand in the digital marketing and social media space with 5 years of experience. She helps business owners stop guessing and start creating content that actually generates leads and client inquiries. Her brand is built around a premium, clean, and modern aesthetic — white, cream, black, and gold tones — with a strong personal authority voice. The landing page is designed as a lead-generation machine focused on capturing WhatsApp contacts in exchange for a free PDF guide titled '7 Types of Posts That Bring Clients (Not Just Likes)', with automated WhatsApp delivery and a thank-you page that drives users to a WhatsApp community group.
+
+---
+
+## Pages
+
+### בית
+https://-9f3be0ba.zappy5.app
+Shachar is a personal brand in the digital marketing and social media space with 5 years of experience. She helps business owners stop guessing and start creati
+
+## Legal & Policy
+
+### Privacy Policy
+https://-9f3be0ba.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-9f3be0ba.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-9f3be0ba.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About שחר
+Shachar is a personal brand in the digital marketing and social media space with 5 years of experience. She helps business owners stop guessing and start creating content that actually generates leads and client inquiries. Her brand is built around a premium, clean, and modern aesthetic — white, cream, black, and gold tones — with a strong personal authority voice. The landing page is designed as a lead-generation machine focused on capturing WhatsApp contacts in exchange for a free PDF guide titled '7 Types of Posts That Bring Clients (Not Just Likes)', with automated WhatsApp delivery and a thank-you page that drives users to a WhatsApp community group.
+
+## Target Audience
+בעלי עסקים שמעלים תוכן ברשתות חברתיות ולא מקבלים פניות
+
+## Industry
+שיווק דיגיטלי וסושיאל מדיה
+
+---
+
+# Additional Resources
+
+- **Sitemap**: https://-9f3be0ba.zappy5.app/sitemap.xml
+- **Robots.txt**: https://-9f3be0ba.zappy5.app/robots.txt
