@@ -822,31 +822,31 @@
       <!-- Lead Form -->
       <form class="contact-form index-hero-form" action="#" method="post" style="text-align: center !important; display: flex !important; justify-content: center !important; align-items: flex-start !important; width: 100% !important;">
         <div class="index-hero-field">
-          <label for="hero-name">שם פרטי *חובה</label>
-          <input type="text" id="hero-name" name="name" placeholder="השם שלך" required="" fdprocessedid="4evyzm" class="field-error" aria-invalid="true">
-        <span class="form-error" role="alert" aria-live="polite" style="display: block;">שם פרטי is required.</span></div>
+          <label for="hero-name">שם פרטי <span class="index-hero-required">*חובה</span></label>
+          <input type="text" id="hero-name" name="name" placeholder="השם שלך" required="">
+        </div>
 
         <div class="index-hero-field">
-          <label for="hero-whatsapp">וואטסאפ <span class="index-hero-required">*חובה</span></label>
-          <input type="tel" id="hero-whatsapp" name="whatsapp" placeholder="05X-XXXXXXX" required="" fdprocessedid="z2f57" class="field-error" aria-invalid="true">
-        <span class="form-error" role="alert" aria-live="polite" style="display: block;">וואטסאפ *חובה is required.</span></div>
+          <label for="hero-email">אימייל <span class="index-hero-required">*חובה</span></label>
+          <input type="email" id="hero-email" name="email" placeholder="your@email.com" required="">
+        </div>
 
         <div class="index-hero-field">
-          <label for="hero-email">אימייל <span class="index-hero-optional">(אופציונלי)</span></label>
-          <input type="email" id="hero-email" name="email" placeholder="your@email.com" fdprocessedid="ry79y" class="field-valid" aria-invalid="false">
-        <span class="form-error" role="alert" aria-live="polite" style="display: none;"></span></div>
+          <label for="hero-phone">טלפון <span class="index-hero-optional">(אופציונלי)</span></label>
+          <input type="tel" id="hero-phone" name="phone" placeholder="05X-XXXXXXX">
+        </div>
 
         <div class="privacy-consent">
           <label class="privacy-consent-label">
-            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox field-valid" required="" aria-invalid="false">
+            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
             <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
-          <span class="form-error" role="alert" aria-live="polite" style="display: none;"></span></label>
+          </label>
         </div>
 
-        <button type="submit" class="index-hero-cta" fdprocessedid="f42o3m" data-element-type="button" data-element-id="btn-1776016534750-bxcf3txmo" data-native-element="true" style="outline: none; color: rgb(42, 42, 42) !important; border-color: transparent !important; background-color: transparent !important; background-image: none !important;">שלחי לי את המדריך עכשיו</button>
+        <button type="submit" class="index-hero-cta" data-element-type="button" data-element-id="btn-1776016534750-bxcf3txmo" data-native-element="true">שלחי לי את המדריך עכשיו</button>
 
         <p class="index-hero-reassurance"><i class="fa-solid fa-lock"></i>&nbsp; הורדה מיידית · גישה חינמית לחלוטין</p>
-      </form>
+</form>
     </div>
   </div>
 
@@ -1315,16 +1315,16 @@
           <form class="contact-form index-cta-form" action="#" method="post" novalidate="">
             <div class="index-cta-fields">
               <div class="index-cta-field-group">
-                <label class="index-cta-label" for="cta-name">שם פרטי</label>
-                <input class="index-cta-input" type="text" id="cta-name" name="first_name" placeholder="השם שלך" required="" fdprocessedid="e8dcvm">
+                <label class="index-cta-label" for="cta-name">שם פרטי <span class="index-cta-required">*</span></label>
+                <input class="index-cta-input" type="text" id="cta-name" name="first_name" placeholder="השם שלך" required="">
               </div>
               <div class="index-cta-field-group">
-                <label class="index-cta-label" for="cta-whatsapp">וואטסאפ <span class="index-cta-required">*</span></label>
-                <input class="index-cta-input" type="tel" id="cta-whatsapp" name="whatsapp" placeholder="05X-XXXXXXX" required="" fdprocessedid="o67xto">
+                <label class="index-cta-label" for="cta-email">אימייל <span class="index-cta-required">*</span></label>
+                <input class="index-cta-input" type="email" id="cta-email" name="email" placeholder="כתובת האימייל שלך" required="">
               </div>
               <div class="index-cta-field-group">
-                <label class="index-cta-label" for="cta-email">אימייל <span class="index-cta-optional">(אופציונלי)</span></label>
-                <input class="index-cta-input" type="email" id="cta-email" name="email" placeholder="כתובת האימייל שלך" fdprocessedid="x2j4rj">
+                <label class="index-cta-label" for="cta-phone">טלפון <span class="index-cta-optional">(אופציונלי)</span></label>
+                <input class="index-cta-input" type="tel" id="cta-phone" name="phone" placeholder="05X-XXXXXXX">
               </div>
             </div>
             <div class="privacy-consent">
@@ -1333,8 +1333,18 @@
                 <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
               </label>
             </div>
-            <button type="submit" class="index-cta-btn" fdprocessedid="zr9qxp" data-element-type="button" data-element-id="btn-1776017586089-w1qsc4vpw" data-native-element="true" style="outline: none;">כן, שלחו לי את המדריך</button>
-          </form>
+            <button type="submit" class="index-cta-btn" data-element-type="button" data-element-id="btn-1776017586089-w1qsc4vpw" data-native-element="true">כן, שלחו לי את המדריך</button>
+            <div class="index-cta-reassurance">
+              <div class="index-cta-reassurance-item">
+                <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <span>המדריך נשלח אוטומטית למייל שלך מיד אחרי ההרשמה</span>
+              </div>
+              <div class="index-cta-reassurance-item">
+                <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <span>בדף התודה תוזמנו להצטרף לקהילת הוואטסאפ שלנו עם טיפים ורעיונות תוכן נוספים כל שבוע</span>
+              </div>
+            </div>
+</form>
           <div class="index-cta-reassurance">
             <div class="index-cta-reassurance-item">
               <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
